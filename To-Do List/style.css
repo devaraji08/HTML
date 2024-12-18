@@ -1,0 +1,102 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: 'Bookman Old Style', Brush Script MT;
+    background:url(image.png);
+    background-color: #e89494 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+.container {
+    border: 2px solid #4CAF50; /* Green border around the content */
+    padding: 20px;
+    border-radius: 8px;
+    background-color: white; /* White background inside the container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Slight shadow for better visibility */
+    width: 500px; /* Fixed width for consistency */
+}
+
+/* Input styling */
+#input {
+    padding: 10px;
+    width: 250px;
+    margin-bottom: 10px;
+    border: 2px solid #eabfbf;
+    border-radius: 4px;
+    font-size: 16px;
+    outline: none;
+}
+
+#input:focus {
+    border-color: #90ce92;
+}
+
+/* Button styling */
+button {
+    padding: 10px 15px;
+    background-color: #337435;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 10px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #72a374;
+}
+
+button:active {
+    background-color: #72a374;
+}
+
+/* List container styling */
+#list-container {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+    width: 100%;
+    max-width: 400px;
+}
+
+/* List item styling */
+#list-container li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 18px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* Delete button styling */
+#list-container li button {
+    background-color: #f44336;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+#list-container li button:hover {
+    background-color: #e53935;
+}
+
+#list-container li button:active {
+    background-color: #d32f2f;
+}
