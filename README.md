@@ -5,6 +5,8 @@ To-Do List 📑
 
 Login Page 🔒
 
+Readify 📕
+
 Projects Overview
 
 1. To-Do List
@@ -18,7 +20,15 @@ Clean and responsive design
 A responsive login page design built with HTML and CSS. This project focuses on creating a user-friendly login form with a clean layout.
 Features:
 User-friendly login form
-Responsive layout for mobile and desktop
 Basic CSS styling for form elements
+
+3.Readify
+This responsive page design was built with HTML, CSS, and Javascript. This project focuses on creating a user-friendly app that provides reviews or brief content about a book.
+Features:
+User-friendly
+Add a short description of a book
+Add and Delete content
+
+
 
 
